@@ -15,8 +15,8 @@ by zhipeng
 3. filesearch_regexp.m (it returns the file name and path with a certain pattern,search with regexp).
 4. :disappointed:our lab is using Biosemi-64 system, data was preprocessed using EEGlab and FASTER [a link here].
     (haven't tested other systems yet).
-5. :bear: Change regexp if your data set is not in 'Finalxxxxx.set' format. Current regexp is '^Final.*.set' (line 56).
-6. There is an anoying but tiny bug on the scroll window, but that won't affect use.
+5. :bear:Change regexp if your data set is not in 'Finalxxxxx.set' format. Current regexp is '^Final.*.set' (line 56).
+6. :sweat:There is an anoying but tiny bug on the scroll window, but that won't affect use.
 
 ### Features in the Future :microscope:
 1. Advanced GUI code instead of Guide.
