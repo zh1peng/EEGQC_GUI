@@ -13,8 +13,7 @@ by zhipeng
 1. EEGlab
 2. Matlab
 3. filesearch_regexp.m (it returns the file name and path with a certain pattern,search with regexp).
-4. :disappointed:our lab is using Biosemi-64 system, data was preprocessed using EEGlab and FASTER [a link here].
-    (haven't tested other systems yet).
+4. :disappointed:our lab is using Biosemi-64 system, data was preprocessed using EEGlab and FASTER [https://github.com/zh1peng/EEG_preprocessing_pipline]. Not sure about other system and pre-process
 5. :bear:Change regexp if your data set is not in 'Finalxxxxx.set' format. Current regexp is '^Final.*.set' (line 56).
 6. :sweat:There is an anoying but tiny bug on the scroll window, but that won't affect use.
 
@@ -24,7 +23,7 @@ by zhipeng
 3. Bug fixed,especially that mentioned in last section.:sweat:
 4. Submit as a plug-in to EEGlab.
 5. Be compatiable with more system.
-6. :fearful:Suggest potential bad epoches based on machine learning results, another project [a link here] 
+6. :fearful:Suggest potential bad epoches based on machine learning results, another project [https://github.com/zh1peng/EEG_ML_QC] 
 
 
 
