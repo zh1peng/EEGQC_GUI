@@ -2,27 +2,26 @@
 
 ![image](https://user-images.githubusercontent.com/25647407/28079377-11530226-6660-11e7-9fcb-07fde29b938a.png)
 
-### Key Features:
+### Key Features :clap::
 1. Read eeg data set (preprocessed) in a given dir
 2. After loading data, it allows you explore data/ics,reject bad epoch/ics, interpolate bad channel.
 3. QCed data can be saved and info like bad epoch/channel/ics/QCer's comments can be recorded.
 4. There is an anoying but tiny bug on the scroll window, that won't affect use.
 
 ### Requirement:
-
 1. EEGlab
 2. Matlab
 3. :disappointed:our lab is using Biosemi-64 system, data was preprocessed using EEGlab and FASTER (link to preprocess pipline reps).
 So the bad chennel module would not work for different system, other parts should be fine (haven't tested yet).
 
 
-### Features in the Future
+### Features in the Future :microscope:
 1. Advanced Gui code instead of Guide
 2. Automatically detect data quality
 3. Bug fixed,especially reject epoch process.
 4. Submit as plug-in to EEGlab
 5. Be compatiable with more system.
-(6.suggest potential bad epoches based on machine learning results, another project) 
+(6.:fearful:suggest potential bad epoches based on machine learning results, another project) 
 
 
 
