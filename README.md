@@ -12,8 +12,7 @@
 
 1. EEGlab
 2. Matlab
-3. :disappointed
-our lab is using Biosemi-64 system, data was preprocessed using EEGlab and FASTER (link to preprocess pipline reps).
+3. :disappointed:our lab is using Biosemi-64 system, data was preprocessed using EEGlab and FASTER (link to preprocess pipline reps).
 So the bad chennel module would not work for different system, other parts should be fine (haven't tested yet).
 
 
