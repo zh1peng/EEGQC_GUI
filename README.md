@@ -1,4 +1,5 @@
 # EEG_QC_GUI----Make QC on EEG data a bit easier. 
+GUi author: Zhipeng
 
 ![image](https://user-images.githubusercontent.com/25647407/28079377-11530226-6660-11e7-9fcb-07fde29b938a.png)
 
@@ -11,7 +12,7 @@
 ### Requirement:
 1. EEGlab
 2. Matlab
-3. filesearch_regexp need to be in the path, it return file name and path with certain patter.
+3. filesearch_regexp need to be in the path, it returns the file name and path with a certain pattern.
 4. :disappointed:our lab is using Biosemi-64 system, data was preprocessed using EEGlab and FASTER (link to preprocess pipline reps).
     (haven't tested yet).
 5. :bear: Change regexp if your data set is not in 'Finalxxxxx.set' format. Current regexp is '^Final.*.set' (line 56).
