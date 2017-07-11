@@ -14,7 +14,7 @@
 3. filesearch_regexp need to be in the path, it return file name and path with certain patter.
 4. :disappointed:our lab is using Biosemi-64 system, data was preprocessed using EEGlab and FASTER (link to preprocess pipline reps).
     (haven't tested yet).
-5. :danger: Change regexp, it is using '^Final.*.set' (line 56).
+5. :bear: Change regexp if your data set is not in 'Finalxxxxx.set' format. Current regexp is '^Final.*.set' (line 56).
 
 
 
