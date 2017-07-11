@@ -18,8 +18,8 @@ by zhipeng
 5. :bear: Change regexp if your data set is not in 'Finalxxxxx.set' format. Current regexp is '^Final.*.set' (line 56).
 
 ### Features in the Future :microscope:
-1. Advanced GUI code instead of Guide
-2. Automatically detect data quality
+1. Advanced GUI code instead of Guide.
+2. Automatically detect data quality.
 3. Bug fixed,especially that in reject epoch process.
 4. Submit as a plug-in to EEGlab.
 5. Be compatiable with more system.
