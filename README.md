@@ -12,7 +12,7 @@ by zhipeng
 ### Requirement:
 1. EEGlab
 2. Matlab
-3. filesearch_regexp need to be in the path, it returns the file name and path with a certain pattern.
+3. filesearch_regexp.m (it returns the file name and path with a certain pattern,search with regexp).
 4. :disappointed:our lab is using Biosemi-64 system, data was preprocessed using EEGlab and FASTER (link to preprocess pipline reps).
     (haven't tested yet).
 5. :bear: Change regexp if your data set is not in 'Finalxxxxx.set' format. Current regexp is '^Final.*.set' (line 56).
