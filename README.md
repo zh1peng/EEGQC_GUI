@@ -4,6 +4,8 @@ Just try to make manual/visual QC on EEG data much more easier.
 
 
 
+![image](https://user-images.githubusercontent.com/25647407/28079377-11530226-6660-11e7-9fcb-07fde29b938a.png)
+
 ### Key Features:
 1.Read eeg data set (preprocessed) in a given dir
 2.After loading data, it allows you explore data/ics,reject bad epoch/ics, interpolate bad channel.
