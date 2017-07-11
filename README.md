@@ -1,29 +1,24 @@
-# EEG_QC_GUI
+# EEG_QC_GUI----Make QC on EEG data a bit easier. 
 
-Just try to make manual/visual QC on EEG data much more easier. 
-
-
-
+## Require:EEGlab,Matlab
+Our lab is using Biosemi-64 system, data was preprocessed using EEGlab and FASTER (link to preprocess pipline reps).
+So the bad chennel part would be very different for different system, other parts would be work well.
 ![image](https://user-images.githubusercontent.com/25647407/28079377-11530226-6660-11e7-9fcb-07fde29b938a.png)
 
 ### Key Features:
-1.Read eeg data set (preprocessed) in a given dir
-2.After loading data, it allows you explore data/ics,reject bad epoch/ics, interpolate bad channel.
-3.QCed data can be saved and info like bad epoch/channel/ics/QCer's comments can be recorded.
-4.There is an anoying but tiny bug on the scroll window, that won't affect use.
-
-
-
-
+1. Read eeg data set (preprocessed) in a given dir
+2. After loading data, it allows you explore data/ics,reject bad epoch/ics, interpolate bad channel.
+3. QCed data can be saved and info like bad epoch/channel/ics/QCer's comments can be recorded.
+4. There is an anoying but tiny bug on the scroll window, that won't affect use.
 
 ### Features in the Future
-1.Advanced Gui code instead of Guide
-2.automatically detect data quality
-3.Bug fixed,especially reject epoch process.
-4.Submit as plug-in to EEGlab
+1. Advanced Gui code instead of Guide
+2. Automatically detect data quality
+3. Bug fixed,especially reject epoch process.
+4. Submit as plug-in to EEGlab
 (5.suggest potential bad epoches based on machine learning results, another project) 
 
-It requires EEGlab
+
 
 ## Breif Mannual:
 
@@ -44,10 +39,10 @@ Thanks to Hanni Kiiski (@tcd) for making this manual on how to use it.
 
 6. Press 'Scroll' 
 
-6.a. no eyeblinks left in the data -> highlight epochs that you want to remove from data (select ‘Zoom Off’ in Setting to allow you highlight epochs)
-- Press 'Update marks' -> You will get a prompt that says these have been saved but to remove them from data you need to press 'Confirm' in the prompt
+	a. no eyeblinks left in the data -> highlight epochs that you want to remove from data (select ‘Zoom Off’ in Setting to allow 		you highlight epochs)
+	- Press 'Update marks' -> You will get a prompt that says these have been saved but to remove them from data you need to press 		'Confirm' in the prompt
 
-6.b. eyeblinks left in the data – go to point 17.
+	b. eyeblinks left in the data – go to point 17.
 
 7. Set bad channels (if any) to be interpolated by checking 'Bad channels' and 'Interpolate Bad Channel' and then choosing the specific channel/s from the list (press ‘Ctrl’ to select multiple channels)
 
@@ -72,17 +67,17 @@ Thanks to Hanni Kiiski (@tcd) for making this manual on how to use it.
     Directory
 
 14. Remember to save your QC info by saving the variable in your workspace.
-14.a. right-click results.mat or temp_results.mat in Workspace, choose ‘Save as..’ and save as autosaved.mat (remember to include ICs from autosaved_IC.mat to the final autosaved.mat)
-14.b. or type in following line in command window
-save(‘location/filename’,’results’) 
+	a. right-click results.mat or temp_results.mat in Workspace, choose ‘Save as..’ and save as autosaved.mat (remember to include 		ICs from autosaved_IC.mat to the final autosaved.mat)
+	b. or type in following line in command window
+	save(‘location/filename’,’results’) 
 
 15. Copy-paste the QC information from autosaved.mat to QCvariable excel file for the specific task
 
 16. Continue to the next dataset:
-16.a. the GUI will automatically have 2 in the dataset number field Press 'Load' -> 
-continue as above
+	a. the GUI will automatically have 2 in the dataset number field Press 'Load' -> 
+	continue as above
 
-16.b. OR go to point 1. and load each participant’s dataset separately
+	b. OR go to point 1. and load each participant’s dataset separately
 
 17. If there are eyeblinks or other clear, repetitive/consistent artifacts left in the data after FASTER you can check Independent Components (ICs)
 
