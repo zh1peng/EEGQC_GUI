@@ -21,13 +21,14 @@ So the bad chennel module would not work for different system, other parts shoul
 3. Bug fixed,especially reject epoch process.
 4. Submit as plug-in to EEGlab
 5. Be compatiable with more system.
-(6.:fearful:suggest potential bad epoches based on machine learning results, another project) 
+
+6.:fearful:Suggest potential bad epoches based on machine learning results, another project[link here] 
 
 
 
 ## Breif Mannual:
 
-Thanks to Hanni Kiiski (@tcd) for making this manual on how to use it. 
+Thanks to Hanni Kiiski (@tcd) for making this manual on how to use it. :clap:
 
 1. Add QC_GUI folder in path, type to command line: EEGQC·
 
