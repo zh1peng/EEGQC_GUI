@@ -13,26 +13,23 @@ by zhipeng
 1. EEGlab
 2. Matlab
 3. filesearch_regexp.m (it returns the file name and path with a certain pattern,search with regexp).
-4. :disappointed:our lab is using Biosemi-64 system, data was preprocessed using EEGlab and FASTER (link to preprocess pipline reps).
+4. :disappointed:our lab is using Biosemi-64 system, data was preprocessed using EEGlab and FASTER [a link here].
     (haven't tested yet).
 5. :bear: Change regexp if your data set is not in 'Finalxxxxx.set' format. Current regexp is '^Final.*.set' (line 56).
 
-
-
 ### Features in the Future :microscope:
-1. Advanced Gui code instead of Guide
+1. Advanced GUI code instead of Guide
 2. Automatically detect data quality
-3. Bug fixed,especially reject epoch process.
-4. Submit as plug-in to EEGlab
+3. Bug fixed,especially that in reject epoch process.
+4. Submit as a plug-in to EEGlab.
 5. Be compatiable with more system.
-
-6.:fearful:Suggest potential bad epoches based on machine learning results, another project[link here] 
-
+6. :fearful:Suggest potential bad epoches based on machine learning results, another project [a link here] 
 
 
-## Breif Mannual:
 
-Thanks to Hanni Kiiski (@tcd) for making this manual on how to use it. :clap:
+## Breif Mannual
+
+Thanks to Hanni Kiiski (@tcd) for making this manual. :clap:
 
 1. Add QC_GUI folder in path, type to command line: EEGQC·
 
