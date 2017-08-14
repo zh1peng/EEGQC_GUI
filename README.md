@@ -6,23 +6,24 @@ by zhipeng
 ### Key Features :clap::
 1. Read eeg data set (preprocessed) in a given dir
 2. After loading data, it allows you explore data/ics,reject bad epoch/ics, interpolate bad channel.
-3. Selected bad epoches/ics/channels will be removed/interpolated once save the dataset, log info for this will be recorded.
+3. Selected bad epoches/ics/channels will be removed/interpolated once save the dataset, log info for will be recorded automatcally.
 
 
 ### Requirement / Good to Know:
 1. EEGlab
 2. Matlab
-3. filesearch_regexp.m (it returns the file name and path with a certain pattern,search with regexp).
+3. filesearch_regexp.m (it searches with regexpreturns the file name and path with a certain pattern).
 4. :disappointed:our lab is using Biosemi-64 system, data was preprocessed using EEGlab and FASTER [https://github.com/zh1peng/EEG_preprocessing_pipline]. Not sure about other system and pre-process
-5. :bear:Change regexp if your data set is not in 'Finalxxxxx.set' format. Current regexp is '^Final.*.set' (line 56).
-6. :sweat:There is an anoying but tiny bug on the scroll window, but that won't affect use.
+5. :bear:Change regexp if your data set is not in 'Finalxxxxx.set' format. Current regexp is '^Final.*.set' (line 56 in main file).
+6. :sweat:There is an anoying but tiny bug on the scroll window, but that won't affect use. [after marking the bad epoches, there will be an error]
 
 ### Features in the Future :microscope:
-1. Advanced GUI code instead of Guide.
+1. Advanced GUI code instead of Matlab Guide.
 2. Automatically detect data quality.
 3. Bug fixed,especially that mentioned in last section.:sweat:
 4. Submit as a plug-in to EEGlab.
 5. Be compatiable with more system.
+
 6. :fearful:Suggest potential bad epoches based on machine learning results, another project [https://github.com/zh1peng/EEG_ML_QC] 
 
 
