@@ -24,7 +24,7 @@ by zh1peng
 4. Submit as a plug-in to EEGlab.
 5. Be compatiable with more system.
 
-6. :fearful:Suggest potential bad epoches based on machine learning results, another project [https://github.com/zh1peng/EEG_ML_QC] 
+6. :fearful:Suggest potential bad epoches based on machine learning results, another project
 
 
 
