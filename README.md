@@ -1,5 +1,5 @@
-# EEG_QC_GUI----Make QC on EEG data a bit easier. 
-by zhipeng
+# EEGQC_GUI----Make QC on EEG data a bit easier. 
+by zh1peng
 
 ![image](https://user-images.githubusercontent.com/25647407/28079377-11530226-6660-11e7-9fcb-07fde29b938a.png)
 
